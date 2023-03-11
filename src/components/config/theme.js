@@ -1,5 +1,5 @@
-export const colors: { [key: string]: string }  = {
-  darkGrey: "9D9FB1",
+export const colors = {
+  darkGrey: "#9D9FB1",
   brightGrey: "#F9FAFC",
   lightGrey: "#FAFBFD",
   brightViolet: "#5D60EF",
