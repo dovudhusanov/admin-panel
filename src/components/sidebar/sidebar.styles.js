@@ -6,6 +6,11 @@ export const StyleSidebar = styled.div`
   max-width: 250px;
   min-width: 250px;
   width: 250px;
+  
+  @media screen and (max-width: 860px) {
+    position: fixed;
+    left: -100%;
+  }
 `
 
 export const SidebarItems = styled.div`
@@ -16,6 +21,12 @@ export const SidebarItems = styled.div`
   width: 250px;
   height: 100%;
   padding: 10px 25px;
+
+  @media screen and (max-width: 860px) {
+    position: fixed;
+    left: -100%;
+  }
+  
 `
 
 export const Logo = styled.div`

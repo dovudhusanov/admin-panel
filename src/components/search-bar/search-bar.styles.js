@@ -10,6 +10,7 @@ export const SearchForm = styled.form`
     padding: 8px;
     border-radius: 8px;
     width: 100%;
+    margin-bottom: 20px;
 
     &:focus {
       border: 1px solid var(--brightViolet);
