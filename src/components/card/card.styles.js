@@ -26,7 +26,7 @@ export const CardStyle = styled.div`
   }
 
   @media screen and (max-width: 860px) {
-    max-width: 320px;
+    max-width: 250px;
     flex-basis: 33%;
   }
 
@@ -81,27 +81,37 @@ export const CardInfo = styled.div`
 `
 
 export const Counter = styled.div`
-  border: 1px solid rgba(128, 128, 128, 0.29);
-  border-radius: 2px;
-  padding: 3px;
+  border-radius: 6px;
   display: flex;
   align-items: center;
-  max-width: 160px;
-  width: 160px;
+  max-width: 120px;
+  width: 120px;
   justify-content: center;
   margin-top: 12px;
+  background-color: rgba(33, 101, 37, 0.09);
+  padding: 2px;
 
   @media screen and (max-width: 1080px) {
     width: 140px;
   }
-  
-  & button{
+
+  & button {
     border: none;
     background-color: transparent;
     font-size: 18px;
-    color: rgb(145, 145, 145);
-    margin: 0px 10px 0px 7px;
+    color: #c52f2b;
     cursor: pointer;
     width: inherit;
+
+    &:last-child {
+      color: #216525;
+    }
+  }
+
+  & span {
+    padding: 2px 10px;
+    border: 1px solid rgba(33, 101, 37, 0.17);
+    background-color: white;
+    border-radius: 6px;
   }
 `

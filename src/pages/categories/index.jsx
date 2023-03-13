@@ -7,17 +7,7 @@ function Categories() {
 
     const {categoryName} = useParams()
 
-    const [filteredProduct, setFilteredProduct] = React.useState([]);
-
-    React.useEffect(() => {
-        if (categoryName) {
-            setFilteredProduct(
-                [...cardData].filter((categoryPath) => categoryPath.pathName === categoryName)
-            );
-        }
-
-        return () => setFilteredProduct([]);
-    }, [categoryName]);
+    const filteredProduct = cardData.filter((categoryPath) => categoryPath.pathName === categoryName)
 
     return (
         <>

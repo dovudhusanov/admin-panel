@@ -7,7 +7,7 @@ function Card({img, name, descr}) {
     const [count, setCount] = useState(0)
 
     function decrement() {
-        if(count === 0) return
+        if (count === 0) return
         else setCount(prevState => prevState - 1)
     }
 
