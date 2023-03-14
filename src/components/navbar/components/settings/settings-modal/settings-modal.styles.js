@@ -26,7 +26,7 @@ export const Modal = styled.div`
   position: fixed;
   right: -100%;
   top: 0;
-  background-color: white;
+  background-color: var(--box-white);
   max-width: 300px;
   width: 300px;
   height: 100%;
@@ -48,9 +48,13 @@ export const Modal = styled.div`
 `
 
 export const Close = styled.div`
-  padding: 20px;
+  position: relative;
+  top: 12px;
+  left: 15px;
+  cursor: pointer;
   
   & i{
+    color: var(--mainColor);
     font-size: 25px;
   }
 `

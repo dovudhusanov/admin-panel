@@ -1,17 +1,29 @@
 import {createGlobalStyle} from "styled-components";
 
 export const GlobalCssStyles = createGlobalStyle`
-  
-  #root{
+
+  #root {
     --darkGrey: #9D9FB1;
     --brightGrey: #F9FAFC;
     --lightGrey: #FAFBFD;
-    --brightViolet: #5D60EF;
+    --mainColor: ${JSON.parse(localStorage.getItem("mainColor") || "#5D60EF")};
     --opacityViolet: #F4E8FF;
     --white: #ffffff;
-    --black: #161D49
+    --black: #161D49;
+    --box-white: #ffffff;
   }
-  
+
+  #root.dark {
+    --darkGrey: #9D9FB1;
+    --brightGrey: #F9FAFC;
+    --lightGrey: #FAFBFD;
+    --mainColor: ${JSON.parse(localStorage.getItem("mainColor") || "#5D60EF")};
+    --opacityViolet: #F4E8FF;
+    --white: #1F1F27;
+    --black: #ffffff;
+    --box-white: #2a2d3a;
+  }
+
   * {
     margin: 0;
     padding: 0;
@@ -20,16 +32,20 @@ export const GlobalCssStyles = createGlobalStyle`
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
   }
-  
-  body{
+
+  body {
     background-color: #F5F5F5;
   }
   
-  img{
+  body.dark {
+    background-color: #2a2d3a;
+  }
+
+  img {
     max-width: 100%;
   }
-  
-  .container{
+
+  .container {
     max-width: 1440px;
     margin: 0 auto;
     padding: 0 20px;

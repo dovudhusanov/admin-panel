@@ -1,4 +1,4 @@
-import img from "../assets/logo.png"
+import img from "../assets/logoNew.png"
 
 export function LogoIcon() {
     return (

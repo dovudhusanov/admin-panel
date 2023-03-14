@@ -8,6 +8,7 @@ import img4 from "../assets/img_4.png"
 export const cardData = [
     {
         id: 1,
+        category: "Lavash",
         pathName: "category_1",
         image: img,
         name: "Lavash",
@@ -15,6 +16,7 @@ export const cardData = [
             "                elit. Magni, temporibus?  Magni, temporibus? "
     },{
         id: 2,
+        category: "Lavash",
         pathName: "category_1",
         image: img,
         name: "Lavash",
@@ -22,6 +24,7 @@ export const cardData = [
             "                elit. Magni, temporibus?  Magni, temporibus? "
     },{
         id: 3,
+        category: "Lavash",
         pathName: "category_1",
         image: img,
         name: "Abdurruf",
@@ -29,6 +32,7 @@ export const cardData = [
             "                elit. Magni, temporibus?  Magni, temporibus? "
     },{
         id: 4,
+        category: "Lavash",
         pathName: "category_1",
         image: img,
         name: "Lavash",
@@ -37,6 +41,7 @@ export const cardData = [
     },
     {
         id: 5,
+        category: "Lavash",
         pathName: "category_2",
         image: img1,
         name: "Lavash",
@@ -44,6 +49,7 @@ export const cardData = [
             "                elit. Magni, temporibus?"
     },{
         id: 6,
+        category: "Lavash",
         pathName: "category_2",
         image: img1,
         name: "Lavash",
@@ -51,6 +57,7 @@ export const cardData = [
             "                elit. Magni, temporibus?"
     },{
         id: 7,
+        category: "Lavash",
         pathName: "category_2",
         image: img1,
         name: "Lavash",
@@ -58,6 +65,7 @@ export const cardData = [
             "                elit. Magni, temporibus?"
     },{
         id: 8,
+        category: "Lavash",
         pathName: "category_2",
         image: img1,
         name: "Lavash",
@@ -66,6 +74,7 @@ export const cardData = [
     },
     {
         id: 9,
+        category: "Lavash",
         pathName: "category_3",
         image: img2,
         name: "Abdurruf",
@@ -73,6 +82,7 @@ export const cardData = [
             "                elit. Magni, temporibus?"
     },{
         id: 10,
+        category: "Lavash",
         pathName: "category_3",
         image: img2,
         name: "Abdurruf",
@@ -80,6 +90,7 @@ export const cardData = [
             "                elit. Magni, temporibus?"
     },{
         id: 11,
+        category: "Lavash",
         pathName: "category_3",
         image: img2,
         name: "Abdurruf",
@@ -87,6 +98,7 @@ export const cardData = [
             "                elit. Magni, temporibus?"
     },{
         id: 12,
+        category: "Lavash",
         pathName: "category_3",
         image: img2,
         name: "Abdurruf",
@@ -95,6 +107,7 @@ export const cardData = [
     },
     {
         id: 13,
+        category: "Lavash",
         pathName: "category_4",
         image: img3,
         name: "Abdurruf",
@@ -102,6 +115,7 @@ export const cardData = [
             "                elit. Magni, temporibus?"
     },{
         id: 14,
+        category: "Lavash",
         pathName: "category_4",
         image: img3,
         name: "Abdurruf",
@@ -109,6 +123,7 @@ export const cardData = [
             "                elit. Magni, temporibus?"
     },{
         id: 15,
+        category: "Lavash",
         pathName: "category_4",
         image: img3,
         name: "Abdurruf",
@@ -116,6 +131,7 @@ export const cardData = [
             "                elit. Magni, temporibus?"
     },{
         id: 16,
+        category: "Lavash",
         pathName: "category_4",
         image: img3,
         name: "Abdurruf",
@@ -124,6 +140,7 @@ export const cardData = [
     },
     {
         id: 17,
+        category: "Lavash",
         pathName: "category_5",
         image: img4,
         name: "Dovudhon",
@@ -131,6 +148,7 @@ export const cardData = [
             "                elit. Magni, temporibus?"
     },{
         id: 18,
+        category: "Lavash",
         pathName: "category_5",
         image: img4,
         name: "Dovudhon",
@@ -138,6 +156,7 @@ export const cardData = [
             "                elit. Magni, temporibus?"
     },{
         id: 19,
+        category: "Lavash",
         pathName: "category_5",
         image: img4,
         name: "Dovudhon",
@@ -145,6 +164,7 @@ export const cardData = [
             "                elit. Magni, temporibus?"
     },{
         id: 20,
+        category: "Lavash",
         pathName: "category_5",
         image: img4,
         name: "Dovudhon",

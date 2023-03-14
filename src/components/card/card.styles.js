@@ -49,7 +49,7 @@ export const CardItem = styled.div`
   margin: 6px;
   position: relative;
   transition: all 0.3s ease 0s;
-  background-color: var(--white);
+  background-color: var(--box-white);
 `
 
 export const Img = styled.img`

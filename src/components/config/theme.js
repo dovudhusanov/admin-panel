@@ -2,10 +2,10 @@ export const colors = {
   darkGrey: "#9D9FB1",
   brightGrey: "#F9FAFC",
   lightGrey: "#FAFBFD",
-  brightViolet: "#5D60EF",
+  mainColor: JSON.parse(localStorage.getItem("mainColor") || "#5D60EF"),
   opacityViolet: "#F4E8FF",
-  white: "#ffffff",
-  black: "#161D49"
+  white: "var(--white)",
+  black: "var(--black)"
 };
 
 export const shadows = {

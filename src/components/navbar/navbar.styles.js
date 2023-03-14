@@ -10,3 +10,13 @@ export const NavbarStyle = styled.div`
   padding-inline: 16px;
   width: 100%;
 `
+
+export const Menu = styled.div`
+  & i{
+    color: var(--black);
+  }
+  
+  @media screen and (min-width: 861px) {
+    display: none;
+  }
+`

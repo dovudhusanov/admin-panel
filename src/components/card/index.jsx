@@ -16,7 +16,7 @@ function Card({img, name, descr}) {
             <CardItem>
                 <Img src={img} alt="img"/>
                 <CardInfo>
-                    <Typography size={"h3"} tag={"h3"} color={"black"}>{name}</Typography>
+                    <Typography size={"h3"} tag={"h3"} color={"mainColor"}>{name}</Typography>
                     <Typography size={"medium"} tag={"span"} color={"black"}>{descr}</Typography>
                     <Counter>
                         <button onClick={decrement}>-</button>
