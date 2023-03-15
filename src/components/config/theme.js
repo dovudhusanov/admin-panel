@@ -2,7 +2,7 @@ export const colors = {
   darkGrey: "#9D9FB1",
   brightGrey: "#F9FAFC",
   lightGrey: "#FAFBFD",
-  mainColor: JSON.parse(localStorage.getItem("mainColor") || "#5D60EF"),
+  mainColor: localStorage.getItem("mainColor") || "#5D60EF",
   opacityViolet: "#F4E8FF",
   white: "var(--white)",
   black: "var(--black)"

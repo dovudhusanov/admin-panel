@@ -5,16 +5,11 @@ import {CloseIcon} from "../../../../../icons";
 function SettingModal({isModalOpen, setIsModalOpen}) {
 
     const [mode, setMode] = useState(localStorage.getItem('mode') || 'light');
-    const [color, setColor] = useState(JSON.parse(localStorage.getItem("mainColor") || "#5D60EF"));
-
-    const handleSubmit = (e) => {
-        e.preventDefault()
-        localStorage.setItem("mainColor", JSON.stringify(color))
-    }
+    const [color, setColor] = useState(localStorage.getItem("mainColor") || "#5D60EF");
 
     useEffect(() => {
-
-    }, [color])
+        localStorage.setItem("mainColor", color)
+    }, [color, localStorage.getItem("mainColor")])
 
     useEffect(() => {
         if (mode === 'dark') {
@@ -39,14 +34,11 @@ function SettingModal({isModalOpen, setIsModalOpen}) {
                     <CloseIcon/>
                 </Close>
                 <button onClick={toggleMode}>change mode</button>
-                <form onSubmit={handleSubmit}>
-                    <input
-                        type="color"
-                        value={color}
-                        onChange={(e) => setColor(e.target.value)}
-                    />
-                    <button type={"submit"}>Submit</button>
-                </form>
+                <input
+                    type="color"
+                    value={color}
+                    onChange={(e) => setColor(e.target.value)}
+                />
             </Modal>
         </ModalBg>
     );

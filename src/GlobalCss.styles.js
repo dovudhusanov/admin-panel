@@ -6,7 +6,7 @@ export const GlobalCssStyles = createGlobalStyle`
     --darkGrey: #9D9FB1;
     --brightGrey: #F9FAFC;
     --lightGrey: #FAFBFD;
-    --mainColor: ${JSON.parse(localStorage.getItem("mainColor") || "#5D60EF")};
+    --mainColor: ${localStorage.getItem("mainColor") || "#5D60EF"};
     --opacityViolet: #F4E8FF;
     --white: #ffffff;
     --black: #161D49;
@@ -17,7 +17,7 @@ export const GlobalCssStyles = createGlobalStyle`
     --darkGrey: #9D9FB1;
     --brightGrey: #F9FAFC;
     --lightGrey: #FAFBFD;
-    --mainColor: ${JSON.parse(localStorage.getItem("mainColor") || "#5D60EF")};
+    --mainColor: ${localStorage.getItem("mainColor") || "#5D60EF"};
     --opacityViolet: #F4E8FF;
     --white: #1F1F27;
     --black: #ffffff;
