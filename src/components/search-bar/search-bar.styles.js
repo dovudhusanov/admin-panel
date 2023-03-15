@@ -2,6 +2,10 @@ import styled from "styled-components";
 
 export const SearchForm = styled.form`
   width: 50%;
+  
+  @media screen and (max-width: 600px) {
+    width: 100%;
+  }
 
   & input {
     border: 1px solid transparent;

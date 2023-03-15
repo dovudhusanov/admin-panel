@@ -2,6 +2,7 @@ import React from 'react';
 import {useParams} from "react-router-dom";
 import {cardData} from "../../data";
 import Cards from "../../components/cards";
+import SearchBar from "../../components/search-bar";
 
 function Categories() {
 
@@ -11,6 +12,7 @@ function Categories() {
 
     return (
         <>
+            <SearchBar />
             <Cards
                 cards={filteredProduct}
             />

@@ -15,7 +15,7 @@ export const BaseLayoutApp = styled.section`
 `
 export const BaseLayoutItems = styled.div`
   padding: 24px;
-  min-height: 600px;
+  min-height: 85vh;
   background: var(--white);
   width: 100%;
 `

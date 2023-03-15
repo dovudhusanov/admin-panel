@@ -17,7 +17,7 @@ export const CardStyle = styled.div`
   
   @media screen and (max-width: 1300px) {
     flex-basis: 33%;
-    max-width: 350px;
+    max-width: 325px;
   }
 
   @media screen and (max-width: 1050px) {

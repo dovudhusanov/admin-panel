@@ -62,7 +62,7 @@ export const CloneBtn = styled.div`
   padding: 5px 15px;
   border-radius: 0 16px 16px 0;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  border: 1px solid #e5e5e5;
+  border: 1px solid var(--mainColor);
 
   & i {
     font-size: 18px;

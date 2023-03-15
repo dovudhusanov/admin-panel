@@ -13,7 +13,7 @@ export const NavbarStyle = styled.div`
 
 export const Menu = styled.div`
   & i{
-    color: var(--black);
+    color: var(--mainColor);
   }
   
   @media screen and (min-width: 861px) {
